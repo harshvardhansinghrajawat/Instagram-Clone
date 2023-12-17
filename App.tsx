@@ -74,8 +74,8 @@ const App = () => {
         screenOptions={{
           headerShown: false,
         }}>
-        {/* <Stack.Screen name="Logo" component={Logo}/> */}
-        {/* <Stack.Screen name="LogIn" component={LogIn}/> */}
+        <Stack.Screen name="Logo" component={Logo}/>
+        <Stack.Screen name="LogIn" component={LogIn}/>
         <Stack.Screen name="Bottom" component={bottomTabScreen} />
         <Stack.Screen name="Activity" component={Activity} />
         <Stack.Screen name="Status" component={Status} />
